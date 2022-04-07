@@ -1,0 +1,18 @@
+.shop-banner{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.text-banner-shop{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.shop-banner img{
+    width: 100%;
+    height: 100%;
+}
+.featured-products{
+    cursor: pointer;
+}

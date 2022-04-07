@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+}
+section{
+    padding: 50px 0;
+    width: 100%;
+    height: auto;
+}
+hr{
+    width: 100px;
+    border-radius: 10px;
+    background-color: crimson;
+}
+hr:not([size]) {
+    height: 3px;
+}
+
+
+/* navbar  ============================================*/
+.ml-auto{
+    margin-left: 50%;
+}
+nav ul li a:hover{
+    box-shadow: 0 0 5px #424343,
+                0 0 5px #7eadb0;
+    border-radius: 5px;
+    color: cyan;
+}
+.navbar{
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);
+    padding: 15px 0;
+    background-color: #e4e6f4 !important;
+}
+.nav-link.active{
+    color: coral !important;
+    border-bottom: 1px solid coral;
+}
+.nav-link{
+    color: black !important;
+}
+
+
+
+/* home ==================================================== section  */
+
+.hero{
+    height: 90vh;
+    background: url(/img/hero4.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.text-field-home p:nth-child(1){
+    font-style: italic;
+    font-size: 20px;
+}
+.text-field-home p:nth-child(3){
+    font-size: 20px;
+}
+.text-field-home h3{
+    font-weight: bolder;
+    font-size: 2.4rem;
+}
+.text-field-home{
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+.shop-home{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 3.5rem;
+    margin-top: 0.8rem;
+}
+
+
+
+/* feature ============================== section  */
+.column-feature{
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);
+    padding: 40px 20px;
+}
+.add-to-cart,
+.favourite{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 0.8s ease;
+}
+.add-to-cart:hover,
+.favourite:hover{
+    background-color: black;
+    color: white;
+}
+.column-feature-products{
+    position: relative;
+    margin-top: 10px;
+}
+.favourite{
+    font-size: 18px;
+    position: absolute;
+    bottom: 20px;
+    right: 80px;
+
+}
+.add-to-cart{
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+
+
+
+/* explore ========================= section  */
+.explore-button{
+    margin-top: 8px;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    padding: 7px 15px;
+    margin-left: 55%;
+}
+.explore-button:hover{
+    color: coral;
+}
+.offer-section{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.offer-section h5,
+.offer-section p{
+    color: white;
+}
+
+
+
+/* banner ---------------================ section  */
+
+.learn-more{
+    background-color: coral;
+    padding: 10px 25px;
+    border-radius: 15px;
+    color: black;
+    transition: 0.9s ease;
+}
+.learn{
+    background: transparent;
+    padding: 10px 25px;
+    border-radius: 15px;
+    color: white;
+    transition: 0.8s ease-in-out;
+    border: 1px solid white;
+}
+.learn:hover{
+    background: coral;
+}
+.learn-more:hover{
+    color: white;
+}
+.main-banner{
+    position: relative;
+}
+.text-field-banner{
+    position: absolute;
+    bottom: 50%;
+   
+    transform: translateY(50%);
+}
+.text-field-banner h1{
+    color: white;
+}
+.main-banner img{
+    cursor: pointer;
+}
+.main-banner img:hover{
+    opacity: 0.7;
+}
+
+
+
+/* get in touch ================================= section */
+.touch{
+    background: rgb(141, 145, 141);
+    padding: 80px 0;
+}
+.email-field{
+    padding: 10px;
+    width: 250px;
+    height: 40px;
+}
+.sign-up{
+    background-color: coral;
+    border: none;
+    height: 40px;
+    color: white;
+    padding: 10px;
+}
+
+
+
+
+
+
+/* footer ================== section  */
+.footer{
+    background-color: #e4e6f4;
+}
+.footer .icons i{
+    background: black;
+    border-radius: 50%;
+    color: white;
+    padding: 5px 7px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: 0.8s ease;
+}
+.footer .icons i.fa-facebook-f{
+    padding: 5px 10px;    
+}
+.footer .icons i:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.footer .list a{
+    color: black;
+    text-decoration: none;
+    transition: 0.8s ease;
+}
+.footer .list a:hover{
+    color: coral;
+}
+.footer .apps img{
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+.footer .apps img:hover{
+    border: 2px solid coral;
+}
